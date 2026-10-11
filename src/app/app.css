@@ -4,16 +4,7 @@
     min-height: 100vh;
 }
 
-.header {
-    background-color: #0891B2;
-}
-
 .main {
     flex: 1;
     background-color: #ECFEFF;
-}
-
-.footer {
-    background-color: #0891B2;
-    color: white;
 }
