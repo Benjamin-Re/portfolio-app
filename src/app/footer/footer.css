@@ -1,4 +1,26 @@
 :host {
     background-color: #0891B2;
-    flex: 1;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    display: flex;
+}
+
+#contact {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+    align-self: center;
 }
