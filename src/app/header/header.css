@@ -1,11 +1,39 @@
 :host {
-    background-color: #0891B2;
     flex: 1;
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+:host::before {
+    content: "";
     transform: skewY(-0.22rad);
-
     transform-origin: top left;
-
     box-shadow: 0 4px 20px gray;
-    
+    background-color: #0891B2;
+    inset: 0;
+    position: absolute;
+}
+
+#header-card {
+    padding: 10px;
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+#header-card h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    position: relative;
+    align-self: flex-start;
 }
