@@ -4,19 +4,26 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 30px;
     display: flex;
+    justify-content: center;
+}
+
+#footer-text-container {
+    width: 350px;
+    margin-right: 20px;
 }
 
 #contact {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     margin-top: 0;
+    
 }
 
 img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 400px;
     align-self: flex-start;
-    margin: 10px;
+    margin: 20px;
 }
 
 .icon {
