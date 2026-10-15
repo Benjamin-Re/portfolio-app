@@ -10,6 +10,8 @@
 #footer-text-container {
     width: 350px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact {
@@ -19,15 +21,13 @@
     
 }
 
-img {
+#footer-img {
     width: auto;
     height: 400px;
     align-self: flex-start;
     margin: 20px;
 }
 
-.icon {
-    width: 30px;
-    height: auto;
-    align-self: center;
+app-icon-container {
+    align-self:flex-start;
 }

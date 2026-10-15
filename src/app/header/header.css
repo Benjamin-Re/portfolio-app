@@ -36,26 +36,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-img {
+.hero-img {
     width: auto;
     height: 400px;
     position: relative;
     align-self: flex-start;
     box-shadow: 0 4px 20px gray;
-}
-
-.icon {
-    width: 30px;
-    height: auto;
-    box-shadow: none;
-}
-
-.icon-container {
-    display: flex;
-    justify-content: end;
-    gap: 10px;
-    align-self: flex-end;
-    margin-top: auto;
 }
 
 .img-container {
@@ -69,4 +55,8 @@ img {
     font-size: 5rem;
     color: white;
     text-shadow: -2px -2px 0 black;
+}
+
+app-icon-container {
+    align-self: flex-end;
 }

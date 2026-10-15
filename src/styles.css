@@ -2,3 +2,18 @@
 body {
     margin: 0;
 }
+
+.icon {
+    width: 30px;
+    height: auto;
+    align-self: center;
+    box-shadow: none;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-self: flex-end;
+    margin-top: auto;
+}
