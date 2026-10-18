@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { IconContainer } from '../icon-container/icon-container';
 
 @Component({
@@ -6,5 +6,8 @@ import { IconContainer } from '../icon-container/icon-container';
   selector: 'app-card',
   styleUrl: './card.css',
   templateUrl: './card.html',
+  
 })
-export class Card {}
+export class Card {
+  title = input<string>();
+}

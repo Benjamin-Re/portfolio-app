@@ -12,3 +12,4 @@
     padding: 40px;
 }
 
+app-card img { width: 100%; height: 200px; object-fit: cover; }
