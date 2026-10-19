@@ -1,8 +1,11 @@
 <ng-content />
 <div class="card-text-container">
-    <h2>{{ title() }}</h2>
-    <app-icon-container>
-        <img src="/invertocat.svg" alt="github logo icon" />
-        <img src="/open-link.svg" alt="open link icon" />
-    </app-icon-container>
+    <div>
+        <h2>{{ title() }}</h2>
+        <app-icon-container>
+            <a [href]="repoLink()"><img src="/invertocat.svg" alt="github logo icon" /></a> 
+            <a [href]="previewLink()"><img src="/open-link.svg" alt="open link icon" /></a>
+        </app-icon-container>
+    </div>
+    <p>{{ description() }}</p>
 </div>

@@ -3,13 +3,21 @@
 </app-header>
 
 <main class="main">
-  <app-card title="etch-a-sketch">
-    <img src="/etchasketch.png" />
-  </app-card>
-  <app-card title="rock paper scissors">
-    <img src="/rock-paper-scissors.png" />
-  </app-card>
-  <router-outlet />
+  
+    <h1>My Work</h1>
+    <div class="card-container">
+      <app-card title="etch-a-sketch" description="A fun little drawing app" repoLink="https://github.com/Benjamin-Re/etch-a-sketch" previewLink="https://benjamin-re.github.io/etch-a-sketch/">
+        <img src="/etchasketch.png" />
+      </app-card>
+      <app-card title="rock paper scissors" description="Play the popular game against the computer" repoLink="https://github.com/Benjamin-Re/rock-paper-scissors" previewLink="https://benjamin-re.github.io/rock-paper-scissors/">
+        <img src="/rock-paper-scissors.png" />
+      </app-card>
+      <app-card title="where is waldo?" description="Find the characters in the image as fast as you can" repoLink="https://github.com/Benjamin-Re/waldo-fe" previewLink="https://waldo-fe-eight.vercel.app/">
+        <img src="/waldo1.png" alt="img preview of where is waldo project" />
+      </app-card>
+    </div>
+    <router-outlet />
+
 </main>
 
 <app-footer></app-footer>

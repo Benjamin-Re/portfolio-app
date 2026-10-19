@@ -10,4 +10,7 @@ import { IconContainer } from '../icon-container/icon-container';
 })
 export class Card {
   title = input<string>();
+  description = input<string>();
+  repoLink = input<string>();
+  previewLink = input<string>();
 }
