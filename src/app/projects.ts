@@ -27,6 +27,27 @@ export const projects: Project[] = [
             repoLink: "https://github.com/Benjamin-Re/waldo-fe",
             previewLink: "https://waldo-fe-eight.vercel.app/",
             img: "/waldo1.png"
+        },
+        {
+            title: "Blog",
+            description: "This project is like a small CMS or Wordpress clone. You can create and edit content that is then displayed in another frontend.",
+            repoLink: "https://github.com/Benjamin-Re/blog-fe-reader",
+            previewLink: "https://blog-fe-reader.vercel.app/",
+            img: "/blog.png"
+        },
+        {
+            title: "Memocards",
+            description: "A Memory game, with dogs :)",
+            repoLink: "https://github.com/Benjamin-Re/memory-cards",
+            previewLink: "https://memocartas.vercel.app/",
+            img: "/memocards.png"
+        },
+        {
+            title: "Webshop",
+            description: "A fake clothing Webshop with shopping card",
+            repoLink: "https://github.com/Benjamin-Re/ReactShop",
+            previewLink: "https://react-shop-drab-five.vercel.app/",
+            img: "/webshop.png"
         }
 
     ]
