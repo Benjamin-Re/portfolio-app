@@ -3,20 +3,19 @@
 </app-header>
 
 <main class="main">
-  
-    <h1>My Work</h1>
+
+  <h1>My work</h1>
+  <div class="container">
     <div class="card-container">
-    @for (project of projects; track project.title) {
-      <app-card [title]="project.title"
-        [description]="project.description"
-        [repoLink]="project.repoLink"
+      @for (project of projects; track project.title) {
+      <app-card [title]="project.title" [description]="project.description" [repoLink]="project.repoLink"
         [previewLink]="project.previewLink">
         <img [src]="project.img" alt="preview of project" />
       </app-card>
-    }      
-
+      }
     </div>
     <router-outlet />
+  </div>
 
 </main>
 

@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+
 }
 
 :host::before {
@@ -18,13 +19,14 @@
 }
 
 #header-card {
-    padding: 10px;
+    padding: 1rem;
     position: relative;
-    height: 300px;
-    width: 400px;
+    flex: 1;
+    height: auto;
     background-color: white;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
     align-self: flex-start;
     top: 30px;
     box-shadow: 0 4px 20px gray;
@@ -34,25 +36,26 @@
 
 #header-card h2 {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
 }
 
 .hero-img {
-    width: auto;
-    height: 400px;
+    width: 400px;
+    height: auto;
     position: relative;
     align-self: flex-start;
     box-shadow: 0 4px 20px gray;
 }
 
 .img-container {
-    position: relative;
+    position: relative;   
 }
 
 #img-text {
     position: absolute;
-    top: 310px;
+    top: 450px;
     left: 30px;
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
     text-shadow: -2px -2px 0 black;
 }
