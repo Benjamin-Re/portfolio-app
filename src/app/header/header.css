@@ -1,11 +1,6 @@
 :host {
-    flex: 1;
+    display: block;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-
 }
 
 :host::before {
@@ -18,37 +13,20 @@
     position: absolute;
 }
 
-#header-card {
-    padding: 1rem;
-    position: relative;
-    flex: 1;
-    height: auto;
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
-    align-self: flex-start;
-    top: 30px;
-    box-shadow: 0 4px 20px gray;
-    display: flex;
-    flex-direction: column;
-}
-
-#header-card h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+@media (max-width: 1032px) {
+    #header-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .hero-img {
     width: 400px;
+    float: left;
     height: auto;
     position: relative;
     align-self: flex-start;
     box-shadow: 0 4px 20px gray;
-}
-
-.img-container {
-    position: relative;   
 }
 
 #img-text {
