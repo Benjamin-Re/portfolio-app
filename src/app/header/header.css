@@ -13,13 +13,6 @@
     position: absolute;
 }
 
-@media (max-width: 1032px) {
-    #header-container {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .hero-img {
     width: 400px;
     float: left;
@@ -27,17 +20,30 @@
     position: relative;
     align-self: flex-start;
     box-shadow: 0 4px 20px gray;
+    z-index: 1;
+}
+
+.header-text {
+    box-shadow: 0 4px 20px gray;
+    padding: 1rem;
+    position: relative;
+    top: 100px;
 }
 
 #img-text {
     position: absolute;
     top: 450px;
-    left: 30px;
+    left: 180px;
     font-size: 3rem;
     color: white;
     text-shadow: -2px -2px 0 black;
+    z-index: 2;
 }
 
 app-icon-container {
     align-self: flex-end;
+}
+
+p {
+    position: relative;
 }
