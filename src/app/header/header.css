@@ -24,17 +24,20 @@
 
 .container {
     box-sizing: border-box;
-    box-shadow: 0 4px 20px gray;
-    padding: 1rem;
     position: relative;
     top: 100px;
+}
+
+#header-text-container {
     background-color: white;
+    box-shadow: 0 4px 20px gray;
+    padding: 1rem;
 }
 
 #img-text {
     position: relative;
-    top: 350px;
-    left: -400px;
+    top: 0px;
+    left: 0px;
     font-size: 3rem;
     color: white;
     text-shadow: -2px -2px 0 black;
@@ -45,11 +48,13 @@ app-icon-container {
     align-self: flex-end;
 }
 
-@media (max-width: 1032px) {
-    #img-text {
-        position: absolute;
-        top: 100px;
-        left: 35%;
-        font-size: 2rem;
+@media (max-width: 1032px) { /* Tablet styles */
+
+    .hero-img {
+        position: relative;
+        left: -20px;
+    }
+    h2 {
+        font-size: 2.5rem;
     }
 }
