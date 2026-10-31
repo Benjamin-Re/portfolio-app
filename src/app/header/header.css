@@ -1,3 +1,5 @@
+/* General Layout Styles */
+
 :host {
     display: block;
     position: relative;
@@ -14,19 +16,39 @@
     position: absolute;
 }
 
-.hero-img {
-    width: min(400px, 45%);
-    float: left;
-    height: auto;
-    margin: -100px 1.5rem 1rem -1rem;
-    box-shadow: 0 4px 20px gray;
-}
-
 .container {
     box-sizing: border-box;
     position: relative;
     top: 100px;
 }
+
+/* Hero Image Styles */
+
+.hero-image-container {
+    position: relative;
+    float: left;
+    width: min(400px, 45%);
+    margin: -100px 1.5rem 1rem -1rem;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 20px gray;
+}
+
+#img-text {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: clamp(1rem, 4vw, 3rem);
+    color: white;
+    text-shadow: -2px -2px 0 black;
+    z-index: 2;
+}
+
+/* Header Text card styles*/
 
 #header-text-container {
     background-color: white;
@@ -34,27 +56,30 @@
     padding: 1rem;
 }
 
-#img-text {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    font-size: 3rem;
-    color: white;
-    text-shadow: -2px -2px 0 black;
-    z-index: 2;
-}
-
 app-icon-container {
     align-self: flex-end;
 }
 
+
+/* Responsive Styles */
+
 @media (max-width: 1032px) { /* Tablet styles */
 
-    .hero-img {
+    .hero-image-container {
         position: relative;
         left: -20px;
     }
+
     h2 {
         font-size: 2.5rem;
+    }
+
+    #img-text {
+        top: 2rem;
+        right: -15rem;
+        bottom: auto;
+        left: auto;
+        font-size: clamp(1.25rem, 5vw, 3.5rem);
+        white-space: nowrap;
     }
 }
