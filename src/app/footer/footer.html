@@ -17,5 +17,9 @@
             <a href="https://www.linkedin.com/in/benjamin-renker-961038135/"><img src="/linkedin.png" alt="linkedin logo icon" /></a>
         </app-icon-container>
     </div>
-    <img src="/portfolio.jpg" alt="stock portfolio foto" id="footer-img"/>
+    <picture>
+        <source media="(width <= 1032px)" srcset="/footer_profile_small.jpg" />
+        <source media="(width > 1032px)" srcset="/footer_profile.jpg" />
+        <img src="/footer_profile.jpg" alt="stock portfolio foto" id="footer-img"/>
+    </picture>
 </div>

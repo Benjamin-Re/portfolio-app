@@ -1,7 +1,7 @@
 :host {
     background-color: #0891B2;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 30px 0;
     display: flex;
     justify-content: center;
@@ -23,16 +23,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     margin-top: 0;
-    
+
 }
 
 #footer-img {
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: auto;
     align-self: flex-start;
     margin: 20px;
 }
 
 app-icon-container {
-    align-self:flex-start;
+    align-self: flex-start;
+}
+
+@media (max-width: 1032px) {
+    #footer-img {
+        width: 300px;
+    }
 }
