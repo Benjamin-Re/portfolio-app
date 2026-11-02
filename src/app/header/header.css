@@ -63,7 +63,8 @@ app-icon-container {
 
 /* Responsive Styles */
 
-@media (max-width: 1032px) { /* Tablet styles */
+@media (max-width: 1032px) {
+    /* Tablet styles */
 
     .hero-image-container {
         position: relative;
@@ -80,6 +81,29 @@ app-icon-container {
         bottom: auto;
         left: auto;
         font-size: clamp(1.25rem, 5vw, 3.5rem);
+        white-space: nowrap;
+    }
+}
+
+@media(max-width: 768px) {
+
+    /* Mobile styles */
+    .hero-image-container {
+        width: auto;
+        margin: auto;
+        left: auto;
+    }
+
+    #header-text-container {
+        box-shadow: none;
+    }
+
+    #img-text {
+        top: auto;
+        right: auto;
+        bottom: 1rem;
+        left: 1rem;
+        font-size: clamp(1.25rem, 10vw, 3.5rem);
         white-space: nowrap;
     }
 }
