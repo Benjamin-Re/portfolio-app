@@ -3,7 +3,7 @@
 :host {
     display: block;
     position: relative;
-    height: 600px;
+    
 }
 
 :host::before {
@@ -14,12 +14,14 @@
     background-color: #0891B2;
     inset: 0;
     position: absolute;
+    height: 500px;
 }
 
 .container {
     box-sizing: border-box;
     position: relative;
     top: 100px;
+    margin-bottom: 15rem;
 }
 
 /* Hero Image Styles */
@@ -66,6 +68,10 @@ app-icon-container {
 @media (max-width: 1032px) {
     /* Tablet styles */
 
+    .container {
+        margin-bottom: 10rem;
+    }
+
     .hero-image-container {
         position: relative;
         left: -20px;
@@ -85,9 +91,15 @@ app-icon-container {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 440px) {
 
     /* Mobile styles */
+
+    .container {
+        top: 40px;
+        margin-bottom: 5rem;
+    }
+
     .hero-image-container {
         width: auto;
         margin: auto;
