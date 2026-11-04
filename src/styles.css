@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #626160;
 }
 
 .icon {
@@ -25,4 +27,9 @@ body {
 
 img, div {
     border-radius: 10px;
+}
+
+h1, h2, h3, #img-text, #contact {
+    font-family: 'Playfair Display', serif;
+    color: black;
 }
