@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Benjamin Renker's portfolio of web development projects.">
+    <title>Benjamin Renker | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="hero-image-container">
+          <picture>
+            <source media="(max-width: 440px)" srcset="./public/header_profile_vertical.jpg">
+            <img src="./public/header_profile.jpg" alt="Benjamin Renker" class="hero-img">
+          </picture>
+          <span id="img-text">Benjamin Renker</span>
+        </div>
+        <div id="header-text-container">
+          <h1>About me</h1>
+          <p>Im working as a QA. And while it is an absolute pleasure I also enjoy programming quite a lot. Especially web
+            development with a focus on frontend technologies. I can do Angular, React and in the backend a bit of
+            Express, Spring Boot. Below you can see some projects I had worked on.
+            You can view the code on github or see a live preview of the project. If you like what you see, please reach
+            me
+            on linkedin or github. I found that the most fun projects have been some way or another been games. Like the
+            Where is Waldo game.
+            If you have an idea for a project, feel free to reach out! I would love to work with others on some side
+            project.</p>
+          <div class="icon-container">
+            <a href="https://github.com/Benjamin-Re" aria-label="GitHub">
+              <img src="./public/invertocat.svg" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/benjamin-renker-961038135/" aria-label="LinkedIn">
+              <img src="./public/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container main-content">
+        <h1>My work</h1>
+        <div class="card-container" id="projects"></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div id="footer-text-container">
+          <p id="contact">Contact me</p>
+          <p>If somebody out there is still hiring frontend developers please reach me on linkedin or github.</p>
+          <p>Sunset Boulevard 12</p>
+          <p>Springfield, California 90002</p>
+          <div class="contact-detail">
+            <img class="icon" src="./public/headset.svg" alt="">
+            <p>5555-555-555</p>
+          </div>
+          <div class="contact-detail">
+            <img class="icon" src="./public/mail.svg" alt="">
+            <p>email@gmail.com</p>
+          </div>
+          <div class="icon-container">
+            <a href="https://github.com/Benjamin-Re" aria-label="GitHub">
+              <img src="./public/invertocat.svg" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/benjamin-renker-961038135/" aria-label="LinkedIn">
+              <img src="./public/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+        <picture>
+          <source media="(max-width: 1032px)" srcset="./public/footer_profile_small.jpg">
+          <img src="./public/footer_profile.jpg" alt="Benjamin Renker" id="footer-img">
+        </picture>
+      </div>
+    </footer>
+  </body>
+</html>
