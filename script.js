@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "Simon Says",
+    description: "Repeat the sequence of colors and sounds for as long as you can",
+    repoLink: "https://github.com/Benjamin-Re/simon-says-js",
+    previewLink: "https://benjamin-re.github.io/simon-says-js/",
+    img: "./public/simon.png",
+  },
+  {
     title: "Etch a Sketch",
     description: "A fun little drawing app",
     repoLink: "https://github.com/Benjamin-Re/etch-a-sketch",
